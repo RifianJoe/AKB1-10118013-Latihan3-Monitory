@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Monitory</string>
+    <string name="title_activity_biodata">Biodata</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_home">Home</string>
+    <string name="txtBelumPunya">Belum punya kode keluarga?</string>
+    <string name="txtBeliKode">Beli Kode Keluarga Disini</string>
+    <string name="txtMasuk">Masuk</string>
+    <string name="txtKami">kami</string>
+    <string name="txtKebijakanData">Kebijakan Data</string>
+    <string name="txtDan">dan</string>
+    <string name="txtKetentuanPengguna">Ketentuan Pengguna</string>
+    <string name="txtSyaratKetentuan">Dengan menekan tombol masuk berarti Anda menyetujui</string>
+    <string name="txtKetikKode">Ketikkan kode keluarga yang Ayah Bunda miliki disini</string>
+    <string name="txtKodeKeluarga">Kode Keluarga</string>
+    <string name="txtMulai">Mulai</string>
+    <string name="txtSubtextAwal">Mengontrol HP Anak</string>
+    <string name="txtAwal">Monitory Membantu Anda</string>
+    <string name="txtOke">Oke</string>
+    <string name="txtHome">Beres! Sekarang kamu udah bisa ngecek penggunaan HP mu tiap hari buat bantu kamu ngatur waktu :)</string>
+    <string name="txtNext">Selanjutnya</string>
+    <string name="txtHintContoh">Contoh : 12</string>
+    <string name="txtUmur">Umur Kamu</string>
+    <string name="txtHintContohNama">Contoh : Budi</string>
+    <string name="txtNama">Nama Panggilan Kamu</string>
+</resources>

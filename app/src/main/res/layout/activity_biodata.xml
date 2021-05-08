@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8"
+    tools:context=".Biodata">
+
+    <TextView
+        android:id="@+id/txtNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNama"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#202020"
+        android:textSize="25sp"
+        />
+
+    <EditText
+        android:id="@+id/edtNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtHintContohNama"
+        android:backgroundTint="#bababb"
+        android:textColorHint="#bababb"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#202020"
+        android:layout_below="@id/txtNama"
+        />
+
+    <TextView
+        android:id="@+id/txtUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtUmur"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#202020"
+        android:textSize="25sp"
+        android:layout_below="@id/edtNama"
+        />
+
+    <EditText
+        android:id="@+id/edtUmur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtHintContoh"
+        android:backgroundTint="#bababb"
+        android:textColorHint="#bababb"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#202020"
+        android:layout_below="@id/txtUmur"
+        />
+
+    <Button
+        android:id="@+id/btnSelanjutnya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNext"
+        android:onClick="pindahHome"
+        android:gravity="center"
+        android:textColor="#202020"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:textAllCaps="false"
+        android:background="@drawable/rectangle_button_yellow"/>
+
+
+</RelativeLayout>

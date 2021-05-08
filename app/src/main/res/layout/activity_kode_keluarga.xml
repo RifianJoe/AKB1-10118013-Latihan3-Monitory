@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dedede"
+    tools:context=".kodeKeluarga">
+
+    <TextView
+        android:id="@+id/txtKodeKeluarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtKodeKeluarga"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#202020"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/txtKetikKodeKeluarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtKetikKode"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#202020"
+        android:textSize="18sp"
+        android:layout_below="@id/txtKodeKeluarga"
+        />
+
+    <EditText
+        android:id="@+id/edtKodeKeluarga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#202020"
+        android:background="@drawable/rectangle_edit"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="30sp"
+        android:layout_below="@+id/txtKetikKodeKeluarga"
+        />
+
+    <TextView
+        android:id="@+id/txtSyaratKetentuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtSyaratKetentuan"
+        android:layout_centerHorizontal="true"
+        android:textColor="#202020"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_below="@+id/edtKodeKeluarga"
+        />
+    <RelativeLayout
+        android:id="@+id/subTextSyaratKetentuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSyaratKetentuan"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:id="@+id/txtKetentuanPengguna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtKetentuanPengguna"
+            android:textStyle="bold"
+            android:textColor="#202020"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/txtDan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtDan"
+            android:layout_toEndOf="@id/txtKetentuanPengguna"
+            android:textColor="#202020"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/txtKebijakanData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtKebijakanData"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/txtDan"
+            android:textColor="#202020"
+            android:textSize="12sp"
+            />
+
+        <TextView
+            android:id="@+id/txtKami"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtKami"
+            android:layout_toEndOf="@id/txtKebijakanData"
+            android:textColor="#202020"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnMasuk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtMasuk"
+        android:textSize="18sp"
+        android:onClick="pindahBiodata"
+        android:gravity="center"
+        android:textColor="#202020"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAllCaps="false"
+        android:layout_below="@id/subTextSyaratKetentuan"
+        android:background="@drawable/rectangle_button_yellow"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#f8f8f8"
+        android:paddingTop="10dp"
+        >
+
+
+        <Button
+            android:id="@+id/btnBeliKode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBeliKode"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColor="#f2f2f2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAllCaps="false"
+            android:layout_below="@+id/txtBelumPunya"
+            android:background="@drawable/rectangle_button_blue"/>
+
+        <TextView
+            android:id="@+id/txtBelumPunya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBelumPunya"
+            android:gravity="center"
+            android:textColor="#525b60"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+
+            />
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
